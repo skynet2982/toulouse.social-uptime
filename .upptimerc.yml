@@ -1,4 +1,4 @@
-owner: skynet2982/ # GitHub username
+owner: skynet2982 # GitHub username
 repo: toulouse-social-uptime # GitHub repository name
 sites: # List of endpoints to track
   - name: Toulouse Social
