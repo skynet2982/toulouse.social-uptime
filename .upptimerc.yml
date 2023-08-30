@@ -9,3 +9,5 @@ status-website:
   cname: status.toulouse.social # Custom domain CNAME
   name: Toulouse Social Status # Status website title
   __dangerous__insecure: true
+  customHeadHtml:
+  customBodyHtml: <h1>Clean jobs</h1> <img src="https://healthchecks.io/badge/9776bc9e-37f9-4cd4-803c-0fd9fe0b03dd/bo6J2Vwg-2/tootctl-accounts-prune.svg" alt="tootctl-accounts-prune">
