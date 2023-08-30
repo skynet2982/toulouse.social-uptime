@@ -6,5 +6,5 @@ sites: # List of endpoints to track
 assignees: # Users to assign downtime issues (optional)
   - skynet2982
 status-website:
-  baseUrl: /toulouse-social-uptime # where "repo" is your repository name
-  name: Toulouse Social Status
+  cname: status.toulouse.social # Custom domain CNAME
+  name: Toulouse Social Status # Status website title
