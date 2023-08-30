@@ -8,3 +8,4 @@ assignees: # Users to assign downtime issues (optional)
 status-website:
   cname: status.toulouse.social # Custom domain CNAME
   name: Toulouse Social Status # Status website title
+  __dangerous__insecure: true
