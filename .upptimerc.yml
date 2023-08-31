@@ -32,9 +32,6 @@ i18n:
   averageResponseTimeTitle: "Temps de réponse moyen"
   sevelDayResponseTime: "Temps de réponse sur 7 jours"
   responseTimeMs: "Temps de réponse (ms)"
-  up: "OK"
-  down: "KO"
-  degraded: "dégradé"
   ms: "ms"
   loading: "Chargement"
   navGitHub: "GitHub"
@@ -70,7 +67,6 @@ i18n:
   duration30D: 30d
   duration1Y: 1y
   durationAll: all
-
   url: "URL"
   status: "Statut"
   history: "Historique"
