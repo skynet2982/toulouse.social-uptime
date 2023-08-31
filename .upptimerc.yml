@@ -89,7 +89,6 @@ i18n:
   uptimeWeek: "Temps de fonctionnement sur 7 jours"
   uptimeMonth: "Temps de fonctionnement sur 30 jours"
   uptimeYear: "Temps de fonctionnement sur 1 an"
-  liveStatus: "Statut en direct"
   liveStatusHtmlComment: "<!--statut en direct-->"
   allSystemsOperational: "🟩 Tous les systèmes sont opérationnels"
   degradedPerformance: "🟨 Performances dégradées"
