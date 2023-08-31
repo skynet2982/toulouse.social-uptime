@@ -9,65 +9,64 @@ status-website:
   cname: status.toulouse.social # Custom domain CNAME
   name: Toulouse Social Status # Status website title
   __dangerous__insecure: true
-
-  i18n:
-    activeIncidents: Incidents actifs
-    allSystemsOperational: Tous les systèmes sont opérationnels
-    incidentReport:  "Rapport de l'incident #$NUMBER →"
-    activeIncidentSummary: Ouvert le $DATE avec des messages $POSTS
-    incidentTitle: Incident $NUMBER Détails
-    incidentDetails: Détails de l'incident
-    incidentFixed: Fixé
-    incidentOngoing: En cours
-    incidentOpenedAt: Ouvert à
-    incidentClosedAt: Fermé à
-    incidentViewOnGitHub: Voir et s'abonner sur GitHub
-    incidentCommentSummary: Posté à $DATE par $AUTHOR
-    incidentBack: ← Retour à tous les incidents
-    pastIncidents: Incidents passés
-    pastIncidentsResolved: Résolu en $MINUTES minutes avec $POSTS messages
-    liveStatus: Statut en direct
-    overallUptime: "Temps de fonctionnement global : $UPTIME"
-    overallUptimeTitle: Temps de fonctionnement global
-    averageResponseTime: "Temps de réponse moyen : $TIMEms"
-    averageResponseTimeTitle: Temps de réponse moyen
-    sevelDayResponseTime: Temps de réponse sur 7 jours
-    responseTimeMs: Temps de réponse (ms)
-    up: OK
-    down: KO
-    degraded: dégradé
-    ms: ms
-    loading: Chargement
-    navGitHub: GitHub
-    footer:
-    rateLimitExceededTitle: Limite de taux dépassée
-    rateLimitExceededIntro: Vous avez dépassé le nombre de requêtes que vous pouvez effectuer en une heure, vous devrez donc attendre avant d'accéder à nouveau à ce site web. Vous pouvez également ajouter un jeton d'accès personnel GitHub pour continuer à utiliser ce site web.
-    rateLimitExceededWhatDoesErrorMean: Que signifie cette erreur ?
-    rateLimitExceededErrorMeaning: Ce site web utilise l'API GitHub pour accéder à des données en temps réel sur l'état de nos sites web. Par défaut, GitHub autorise chaque adresse IP à effectuer 60 requêtes par heure, ce que vous avez consommé.
-    rateLimitExceededErrorHowCanFix: Comment puis-je résoudre ce problème ?
-    rateLimitExceededErrorFix: Vous pouvez attendre une heure de plus et la limite de votre adresse IP sera rétablie. Vous pouvez également ajouter votre jeton d'accès personnel GitHub, qui vous donne droit à 5 000 requêtes supplémentaires par heure.
-    rateLimitExceededGeneratePAT: Apprendre à générer un jeton d'accès personnel
-    rateLimitExceededHasSet: Vous disposez d'un jeton d'accès personnel.
-    rateLimitExceededRemoveToken: Supprimer le jeton
-    rateLimitExceededGitHubPAT: Jeton d'accès personnel à GitHub
-    rateLimitExceededCopyPastePAT: Copiez et collez votre jeton
-    rateLimitExceededSaveToken: Sauvegarder le jeton
-    errorTitle: Une erreur s'est produite
-    errorIntro: Une erreur s'est produite lors de l'obtention des derniers détails de l'état.
-    errorText: Vous pouvez réessayer dans quelques instants.
-    errorHome: Aller à la page d'accueil
-    pastScheduledMaintenance: Maintenance programmée passée
-    scheduledMaintenance: Entretien programmé
-    scheduledMaintenanceSummaryStarted: Commencé à $DATE pour $DURATION minutes
-    scheduledMaintenanceSummaryStarts: Commence à $DATE pour $DURATION minutes
-    startedAt: Commencé à
-    startsAt: Commence à
-    duration: Durée
-    durationMin: $DURATION minutes
-    incidentCompleted: Terminé
-    incidentScheduled: Programmé
-    duration24H: 24h
-    duration7D: 7d
-    duration30D: 30d
-    duration1Y: 1y
-    durationAll: all
+i18n:
+  activeIncidents: "Incidents actifs"
+  allSystemsOperational: "Tous les systèmes sont opérationnels"
+  incidentReport:  "Rapport de l'incident #$NUMBER →"
+  activeIncidentSummary: "Ouvert le $DATE avec des messages $POSTS"
+  incidentTitle: "Incident $NUMBER Détails"
+  incidentDetails: "Détails de l'incident"
+  incidentFixed: "Fixé"
+  incidentOngoing: "En cours"
+  incidentOpenedAt: "Ouvert à"
+  incidentClosedAt: "Fermé à"
+  incidentViewOnGitHub: "Voir et s'abonner sur GitHub"
+  incidentCommentSummary: "Posté à $DATE par $AUTHOR"
+  incidentBack: "← Retour à tous les incidents"
+  pastIncidents: "Incidents passés"
+  pastIncidentsResolved: "Résolu en $MINUTES minutes avec $POSTS messages"
+  liveStatus: "Statut en direct"
+  overallUptime: "Temps de fonctionnement global : $UPTIME"
+  overallUptimeTitle: "Temps de fonctionnement global"
+  averageResponseTime: "Temps de réponse moyen : $TIMEms"
+  averageResponseTimeTitle: "Temps de réponse moyen"
+  sevelDayResponseTime: "Temps de réponse sur 7 jours"
+  responseTimeMs: "Temps de réponse (ms)"
+  up: "OK"
+  down: "KO"
+  degraded: "dégradé"
+  ms: "ms"
+  loading: "Chargement"
+  navGitHub: "GitHub"
+  footer: ""
+  rateLimitExceededTitle: "Limite de taux dépassée"
+  rateLimitExceededIntro: "Vous avez dépassé le nombre de requêtes que vous pouvez effectuer en une heure, vous devrez donc attendre avant d'accéder à nouveau à ce site web. Vous pouvez également ajouter un jeton d'accès personnel GitHub pour continuer à utiliser ce site web."
+  rateLimitExceededWhatDoesErrorMean: "Que signifie cette erreur ?"
+  rateLimitExceededErrorMeaning: "Ce site web utilise l'API GitHub pour accéder à des données en temps réel sur l'état de nos sites web. Par défaut, GitHub autorise chaque adresse IP à effectuer 60 requêtes par heure, ce que vous avez consommé."
+  rateLimitExceededErrorHowCanFix: "Comment puis-je résoudre ce problème ?"
+  rateLimitExceededErrorFix: "Vous pouvez attendre une heure de plus et la limite de votre adresse IP sera rétablie. Vous pouvez également ajouter votre jeton d'accès personnel GitHub, qui vous donne droit à 5 000 requêtes supplémentaires par heure."
+  rateLimitExceededGeneratePAT: "Apprendre à générer un jeton d'accès personnel"
+  rateLimitExceededHasSet: "Vous disposez d'un jeton d'accès personnel."
+  rateLimitExceededRemoveToken: "Supprimer le jeton"
+  rateLimitExceededGitHubPAT: "Jeton d'accès personnel à GitHub"
+  rateLimitExceededCopyPastePAT: "Copiez et collez votre jeton"
+  rateLimitExceededSaveToken: "Sauvegarder le jeton"
+  errorTitle: "Une erreur s'est produite"
+  errorIntro: "Une erreur s'est produite lors de l'obtention des derniers détails de l'état."
+  errorText: "Vous pouvez réessayer dans quelques instants."
+  errorHome: "Aller à la page d'accueil"
+  pastScheduledMaintenance: "Maintenance programmée passée"
+  scheduledMaintenance: "Entretien programmé"
+  scheduledMaintenanceSummaryStarted: "Commencé à $DATE pour $DURATION minutes"
+  scheduledMaintenanceSummaryStarts: "Commence à $DATE pour $DURATION minutes"
+  startedAt: "Commencé à"
+  startsAt: "Commence à"
+  duration: "Durée"
+  durationMin: "$DURATION minutes"
+  incidentCompleted: "Terminé"
+  incidentScheduled: "Programmé"
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1y
+  durationAll: all
