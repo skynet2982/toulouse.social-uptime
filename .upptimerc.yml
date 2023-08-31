@@ -9,6 +9,11 @@ status-website:
   cname: status.toulouse.social # Custom domain CNAME
   name: Toulouse Social Status # Status website title
   __dangerous__insecure: true
+  navbar:
+    - title: Status Mastodon
+      href: /
+    - title: Maintenance Mastodon
+      href: maintenance.html
 i18n:
   activeIncidents: "Incidents actifs"
   allSystemsOperational: "Tous les systèmes sont opérationnels"
