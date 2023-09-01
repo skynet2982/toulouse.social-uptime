@@ -7,7 +7,7 @@ assignees: # Users to assign downtime issues (optional)
   - skynet2982
 status-website:
   introTitle: "Toulouse Social"
-  introMessage: "Cette page présente le statut des différents services de l'instance Mastodon https://toulouse.social. Vous pouvez également trouver le statut des différentes opérations de maintenance dans l'onglet Mastodon Maintenance."
+  introMessage: "Cette page présente le statut des différents services de l'instance Mastodon https://toulouse.social. Vous pouvez également trouver le statut des différentes opérations de maintenance dans l'onglet Mastodon Maintenance." <p style="text-align:center"><figure><img src="https://healthchecks.io/badge/0c8ffb79-2c5f-4fb9-9955-33ca5f/-6NAUCZ5-2/instance.svg" alt="Mastodon Statut"><figcaption>Statut de l'instance Mastodon.</figcaption></figure></p>
   customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
   customBodyHtml: <p style="text-align:center"><figure><img src="https://healthchecks.io/badge/0c8ffb79-2c5f-4fb9-9955-33ca5f/-6NAUCZ5-2/instance.svg" alt="Mastodon Statut"><figcaption>Statut de l'instance Mastodon.</figcaption></figure></p>
   cname: status.toulouse.social # Custom domain CNAME
