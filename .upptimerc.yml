@@ -13,7 +13,7 @@ status-website:
     - title: Status Mastodon
       href: /
     - title: Maintenance Mastodon
-      href: /maintenance.html
+      href: https://maintenance.toulouse.social
 i18n:
   activeIncidents: "Incidents actifs"
   allSystemsOperational: "Tous les systèmes sont opérationnels"
