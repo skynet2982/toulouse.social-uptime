@@ -8,7 +8,7 @@ assignees: # Users to assign downtime issues (optional)
 status-website:
   introTitle: "Toulouse Social"
   introMessage: "Cette page présente le statut des différents services de l'instance Mastodon https://toulouse.social. Vous pouvez également trouver le statut des différentes opérations de maintenance dans l'onglet Mastodon Maintenance."
-  customBodyHtml: '<style>.content {max-width: 500px;margin: auto;}</style><body><div class="content"><figure><img src="https://healthchecks.io/badge/0c8ffb79-2c5f-4fb9-9955-33ca5f/ooqiUY9f-2/notifications-mail.svg" alt="Notifications Statut"><figcaption>Statut du serveur de notifications mail.</figcaption></figure><figure><img src="https://healthchecks.io/badge/0c8ffb79-2c5f-4fb9-9955-33ca5f/-6NAUCZ5-2/instance.svg" alt="Mastodon Statut"><figcaption>Statut instance Mastodon.</figcaption></figure></div></body>'
+  customBodyHtml: '<style>.content {max-width: 800px;margin: auto;}</style><body><div class="content"><figure><img src="https://healthchecks.io/badge/0c8ffb79-2c5f-4fb9-9955-33ca5f/ooqiUY9f-2/notifications-mail.svg" alt="Notifications Statut"><figcaption>Statut du serveur de notifications mail.</figcaption></figure><figure><img src="https://healthchecks.io/badge/0c8ffb79-2c5f-4fb9-9955-33ca5f/-6NAUCZ5-2/instance.svg" alt="Mastodon Statut"><figcaption>Statut instance Mastodon.</figcaption></figure></div></body>'
   cname: status.toulouse.social # Custom domain CNAME
   name: Toulouse Social Status # Status website title
   __dangerous__insecure: true
